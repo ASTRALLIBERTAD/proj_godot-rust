@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "preLaunchTask": "rust: cargo build",
+            "name": "Cargo launch",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--lib"
+                ]
+            },
+            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\rust"]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\godot"], 
+            "cwd": "${workspaceFolder}",
+            "windows": {
+                "program": "C:\\Users\\Boss\\Downloads\\Godot_v4.3-stable_win64.exe\\Godot_v4.3-stable_win64.exe"
+            }
+        }
+    ]
+}

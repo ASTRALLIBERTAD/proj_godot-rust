@@ -1,0 +1,7 @@
+{
+    "godotTools.editorPath.godot4": "c:\\Users\\Boss\\Downloads\\Godot_v4.3-stable_win64.exe\\Godot_v4.3-stable_win64.exe",
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands"
+}
