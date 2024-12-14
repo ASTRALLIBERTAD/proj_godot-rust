@@ -15,13 +15,13 @@
                     "--lib"
                 ]
             },
-            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\rust"]
+            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\proj_godot-rust\\rust"]
         },
         {
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\godot"], 
+            "args": ["--path", "C:\\Users\\Boss\\Documents\\proj\\proj_godot-rust\\godot"], 
             "cwd": "${workspaceFolder}",
             "windows": {
                 "program": "C:\\Users\\Boss\\Downloads\\Godot_v4.3-stable_win64.exe\\Godot_v4.3-stable_win64.exe"
